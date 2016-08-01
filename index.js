@@ -13,15 +13,15 @@ submitButton.on("click", function(event){
 	$(".container").css("background-image" "url("images/sf.jpg")");
 	}
 	//type LA and image of LA wil be the background
-	else if (input === "Los Angeles"|| "LA"|| "LAX"){
+	else if (input === "Los Angeles"|| input === "LA"|| input === "LAX"){
 	(".container").css("background-image" "url("images/la.jpg")");
 	}
 	//type Austin and image of Austin wil be the background
-	else if (input === "Austin"|| "ATX"){
+	else if (input === "Austin"|| input === "ATX"){
 	(".container").css("background-image" "url("images/austin.jpg")");
 	}
 	//type Sydney and image of Sydney wil be the background
-	else (input==="sydney", "SYD"){
+	else (input==="sydney"|| input==="SYD"){
 	(".container").css("background-image" "url("images/sydney.jpg")");
 	}
 }
