@@ -1,8 +1,6 @@
 	$(document).ready(function(){
-//wait until doc has loaded
-var submitButton = $("#submit-btn");
-
-submitButton.on("click", function(event){
+		//wait until doc has loaded
+		$('#submit-btn').click(function()){
 	var input = $("#city-type").val(){
 	//type NYC and image of NYC wil be the background
 	if (input === "NYC" || "New York City"|| "New York"){
